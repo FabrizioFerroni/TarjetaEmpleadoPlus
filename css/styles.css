@@ -1,0 +1,164 @@
+*{
+  cursor: default;
+}
+
+.dni{
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    position: absolute;
+    top:50%;
+    left: 40%;           
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 500px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+
+.dni .img-dni{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    float: right;
+    border-radius: 5px;
+}
+
+.dni .labelsdni{
+    font-size: 10px;
+    margin-top: 2.5px;
+    
+}
+
+.dni .camposdni{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dni .labelsdni, .camposdni{
+    display: flex;
+    width: 90%;
+    float: right;
+}
+
+.col-md-5{
+    width: 50% !important;
+    /* margin-bottom: 20px; */
+}
+
+.dni  .img-plus{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+}
+.row{
+    margin-left: 0 !important;
+}
+
+.logo2 .p{
+    position: absolute;
+    top:5%;
+    /* top:9%; */
+    font-weight: bold;
+    left: 30%;
+}
+
+
+.logo2 .p2{
+    position: absolute;
+    /* top:3%; */
+    top:12%;
+    font-weight: bold;
+    left: 36%;
+    
+}
+.col-md-10{
+    width: 73%;
+    padding-left: 0;
+}
+
+
+
+
+.col-md-2{
+    width: 27%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.labels{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.labels-foot{
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.user{
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.smt{
+    margin-top: 0;
+}
+
+.campos{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.vertical{
+    writing-mode: vertical-rl;
+    font-size: 13px;
+    display: flex;
+    float: right;
+    font-weight: bold !important;
+    color: #DC3545;
+}
+
+
+.labels-v{
+    font-size: 10px;
+    /* margin-top: 5px; */
+    writing-mode: vertical-lr;
+    display: flex;
+    float: right;
+}
+
+.qr-labels{
+    font-size: 10px;
+    display: flex;
+    float: right;
+    /* margin-top: 160px; */
+    margin-top: 125px;
+   margin-left: -100px;
+   margin-right: 36px;
+}
+
+.img-qr{
+    display: flex;
+   color: white;
+   float: right;
+   margin-top: 130px;
+   margin-left: -60px;
+   width: 70px;
+   height: 70px;
+   max-width: 70px !important;
+   max-height: 70px !important;
+}
+
+.logo{
+    margin-bottom: 80px;
+}
